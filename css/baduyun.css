@@ -1,0 +1,456 @@
+
+.login-body{
+
+	height: auto;
+	
+}
+/*---------------*/
+.header-container{
+	width: 100%;
+	height: 656px;
+	position: relative;
+	min-width: 1002px;
+}
+#login-header{
+	width: 100%;
+	height: 60px;
+	box-shadow:0 0 5px #c3c3c3; 
+	border: 1px solid #b3b3b3x;
+	
+	
+}
+.logo{
+	background: url(../img/login-all.gif) no-repeat scroll -733px 0 transparent;
+	width:186px;
+	height: 48px;
+	margin: 10px 0 0 25px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+	
+}
+.logo-title{
+	float: right;
+	margin: 25px 20px 0 0 ;
+	color: #2974b6;
+}
+.logo-title a {
+	color: #2974b6;
+	
+}
+.logo-title a:hover {
+	text-decoration: underline;
+}
+.logo-title .link_logo{
+	color:  red;
+}
+/*---------------*/
+.bg{
+
+	height: 417px;
+	background: url(../img/background.jpg)  ;
+}
+#login-middle{
+	margin: 0 auto;
+	width: 1002px;
+	height: 465px;
+	position: relative;
+	
+	z-index: 1;
+	
+}
+/*.leftArea{
+	
+	float: left;
+	height:465px;
+	width:153px;
+	background: url(../img/background.jpg) ;
+}
+.rightArea{
+
+	float: right;
+	height:465px;
+	width:159px;
+	background: url(../img/background.jpg) ;
+	
+}*/
+.image-content{
+	height:417px;
+	width:658px;
+	margin-right: 24px;
+	z-index: 2;	
+}
+.yun-background{
+	height: 100px;
+	width: 650px;
+	min-width: 650px;
+	position: absolute;
+	top: 370px;
+	background: url(../img/login-all.gif) -453px -469px no-repeat;
+	
+	
+}
+.login{
+
+	width: 317px;
+	height: 450px;
+	overflow: hidden;
+	float: left;
+	position: absolute;
+	top: 16px;
+	right: 0;
+	background: url(../img/login-all.gif) -112px -145px no-repeat;
+	
+}
+.login_title{
+	height: 35px;
+
+	color: #2486c4;
+	font-weight: bold;
+	line-height: 50PX;
+	font-size: 14px;
+	padding:0 0 0 20px;
+}
+.login_title .login_title_img{
+	position: relative;
+	top: 3px;
+	height: 21px;
+	width: 28px;
+	background: url(../img/pan_login_logo.png) no-repeat;
+	display: inline-block;
+}
+.pass-login{
+	position:relative;
+	margin: 20px;
+	height: 189px;
+	width: 317px;
+	z-index: 50;
+}
+.pass-login .p1{
+
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.pass-login .p1 .pass-login-label{
+	
+	position: absolute;
+	color: #666666;
+	padding-bottom: 10px;
+	top: 11px;
+	left: 11px;
+	display: block;
+	height: 10px;
+	width: 17px;
+	background: url(../img/input_icon.png) 0 0px no-repeat;
+}
+
+.pass-login .p1 .user{
+	background-color: white;
+	display: block;
+	padding: 7px 10px;
+	width: 228px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 36px;
+	border:  1px solid   #e7e7e7;
+}
+
+.pass-login .p1 .pass-login-label-2{
+	
+	position: absolute;
+	color: #666666;
+	padding-bottom: 10px;
+	top: 55px;
+	left: 11px;
+	display: block;
+	height: 10px;
+	width: 17px;
+	background: url(../img/input_icon.png) -16px 0 no-repeat;
+}
+
+.pass-login .p1 .password{
+	border:  1px solid   #e7e7e7;
+	background-color: white;
+	display: block;
+	padding: 7px 10px;
+	width: 228px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 36px;
+}
+.pass-login .p1 .pass-login-label-3{
+	position: absolute;
+	margin-left:10px;
+	margin-bottom: 10px;
+	padding-top: 12px;
+	top: 90px;
+	left: 11px;
+	color: #5b7e9b;
+	font-family: SimSun,SimHei,Tahoma;
+}
+.checkBox{
+	position: absolute;
+	margin-top: 14px;
+	padding-top: 12px;
+	top: 90px;
+	font-size: 14px;
+	color: #5b7e9b;
+	vertical-align: middle;
+}
+.pass-login .p1 .wenti{
+	position: absolute;
+	margin-bottom: 10px;
+	padding-top: 12px;
+	top: 90px;
+	right: 25px;
+	text-decoration: underline;
+	color: #2974b6;
+
+}
+.pass-login .p2{
+	border:  1px solid  #e7e7e7;
+	border-radius: 4px;
+	background-color: #2592E0;
+	top: 130px;
+	width: 275px;
+	line-height: 40px;
+	height: 40px;
+	position: absolute;
+}
+.pass-login .p2 .Submit{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Microsoft YaHei,SimHei,Tahoma;
+	cursor: pointer;
+	margin-left: 110px;
+	height: 41px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+
+
+}
+/*------------------------*/
+.login .qitafangshi{
+	width:317px;
+	height: 54px;
+	padding: 0 20px 10px 20px;
+	
+}
+.login .qitafangshi .qitafangshi-title{
+	color: #5b7e9b;
+	float: left;
+
+	
+}
+.login .qitafangshi .qitafangshi-login{
+	
+	float: left;
+	width: 100px;
+	margin-top: -18px;
+	margin-left: 36px;
+	
+}
+
+.login .qitafangshi .WQ{
+	
+	height: 45px;
+
+	/*background: url(../img/login-all.gif) -1252px -12px no-repeat;*/
+
+		
+}
+
+.login .qitafangshi .WQ .weiboqq{
+
+}
+.login .qitafangshi .WQ .weiboqq .weibo{
+	float: left;
+	margin-right: 15px;
+	width: 24px;
+	height: 32px;
+	padding-left: 18px;	
+	overflow: hidden;
+	background: url(../img/login-all.gif) -1252px -12px no-repeat;
+	
+}
+.login .qitafangshi .WQ .weiboqq .weibo:hover{
+	float: left;
+	margin-right: 15px;
+	width: 24px;
+	height: 32px;
+	padding-left: 18px;	
+	overflow: hidden;
+	background: url(../img/login-all.gif) -1252px -59px no-repeat;
+	
+}
+.login .qitafangshi .WQ .weiboqq .qq{
+	float: left;
+	width: 24px;
+	height: 32px;
+	padding-left: 18px;	
+	overflow: hidden;
+	background: url(../img/login-all.gif) -1300px -12px no-repeat;
+}
+
+.login .qitafangshi .WQ .weiboqq .qq:hover{
+	float: left;
+	width: 24px;
+	height: 32px;
+	padding-left: 18px;	
+	overflow: hidden;
+	background: url(../img/login-all.gif) -1300px -59px no-repeat;
+}
+
+/*------------------------*/
+.login .login-info{
+	
+	width: 266px;
+	position: absolute;
+	top: 346px;
+	left: 22px;
+} 
+
+.login .login-info .login-create{
+	
+	display: block;
+	padding-bottom: 10px;
+	color: #5b7e9b;
+} 
+.login .login-info .link-create{
+	
+	width: 175px;
+	height: 38px;
+	display: block;
+	margin-left: 50px;
+	background: url(../img/login-all.gif) -107px -73px no-repeat;
+	
+} 
+/*---------lunfan-------------*/
+#content{
+	position:relative;
+	height:417px;
+	width:658px;
+	
+}
+#content ul{
+	list-style-type:none;
+}
+#content .picture{
+
+	position:relative;
+}
+#content .picture li{
+    position:absolute;
+ 
+}
+#content .picture li img{
+   height:417px;
+	width:658px;
+}
+#content .list li.current{
+	opacity:1;
+	filter:alpha(opacity=100);
+	}
+
+#content .MinSwitch{
+	z-index: 8;
+	position:absolute;
+	right:20%;
+	bottom:-38px;
+}
+#content .MinSwitch li{
+	z-index:999;
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius:12px;
+	cursor:pointer;
+	margin-right:12px;
+	background:#E5E4E4;
+	opacity:0.7;
+}
+#content .MinSwitch li.current{
+	background:#5199fd;
+}
+
+
+
+/*------gezhongxiazai-----------*/
+#login-download{
+	width: 972px;
+	height: 110px;
+	margin: 60px auto;
+}
+.tab{
+	clear: left;
+	width:972px;
+	height: 110px;
+	margin: 0 auto;
+
+}
+.tab li{
+	float: left;
+	display: block;
+	width: 138px;
+	}
+.tab li .window_download{
+	background-position: -458px -165px;
+	}
+.tab li .window_download:hover{
+	background-position:-461px -314px
+}		
+.tab li .Android_download{
+background-position: -596px -165px;
+}	
+.tab li .Android_download:hover{
+	background-position:-599px -314px
+}	
+.tab li  .iPhone_download{
+background-position: -733px -165px;
+}	
+.tab li .iPhone_download:hover{
+	background-position:-736px -314px
+}
+.tab li .iPad_download{
+background-position: -870px -165px;
+}
+.tab li .iPad_download:hover{
+	background-position:-873px -314px
+}	
+.tab li .WP_download{
+background-position: -1007px -165px;
+}	
+.tab li .WP_download:hover{
+	background-position:-1010px -314px;
+}	
+.tab li .Mav_download{
+background-position: -1144px -165px;
+}	
+.tab li .Mav_download:hover{
+	background-position:-1147px -314px;
+}	
+.tab li .two_download{
+background-position: -1280px -160px;
+}	
+
+.tab li a{
+	height: 110px;
+	display: block;
+	cursor: pointer;
+	width: 138px;
+	background: url(../img/login-all.gif);
+	text-indent: -999em; 
+	}
+
+.footer{
+	margin-top:50px;
+	padding: 30px 0;
+	width: 100%;
+	overflow: hidden;
+	height: 48px;
+	min-width: 1002px;
+	text-align: center;
+	font: 12px/1.5 tahoma,arial,宋体;
+	color: #666;
+}
